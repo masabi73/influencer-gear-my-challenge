@@ -1,0 +1,214 @@
+/* @import inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* @import robot */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* google fonts robot */
+.roboto-fonts-robot {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* google fonts inter */
+.inter-google-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* univarcel selectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <i class="fa-solid fa-magnifying-glass"></i> glass */
+/* <i class="fa-solid fa-cart-shopping"></i> cart */
+/* Shared common  class */
+
+.display-flex{
+    display: flex;
+}
+
+
+.btn{
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #E02C6D;
+    color: white;
+}
+/* navbar style */
+
+.navbar{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto 100px auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0px 10px;
+}
+
+.nav-logo h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.nav-icon-link ul{
+    gap: 30px;
+}
+.nav-icon-link li{
+    list-style: none;
+}
+
+.nav-icon-link a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.nav-icon-link i{
+    color: rgb(255, 57, 8);
+}
+.icon{
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+   align-content: center;
+   font-size: 1.6rem;
+}
+
+/* banner style */
+
+.banner{
+      width: 90%;
+    height: 400px;
+    margin: 0 auto 100px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.banner-heading h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.banner-heading > h2, p, button{
+    margin-bottom: 15px;
+
+}
+.banner-image{
+background-image: url(./images/Circle\ design.svg);
+background-size: cover;
+/* background-color: rgb(233, 255, 151) */
+}
+
+/* Icon center style */
+.icon-center{
+    width: 90%;
+    margin: 0 auto 100px auto;
+    text-align: center;
+    
+}
+.icon-center img{
+    margin: 5px 20px;
+}
+/* small divce desin */
+
+@media screen and (max-width: 576px){
+
+    /* nav bar media screen */
+ .navbar,  
+.grid,
+.banner{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.nav-logo h3{
+    font-size: 30px;
+}
+.navbar{
+    text-align: center;
+    gap: 10px;
+    height: auto;
+}
+
+.nav-icon-link ul{
+    gap: 10px;
+}
+.nav-icon-link a{
+    font-size: 25px;
+    color: blue;
+}
+/* banner small media scren */
+.banner{
+    display: grid;
+    text-align: center;
+    height: 100%;
+ }
+.banner-image{
+    grid-row: 1;
+    padding: 20px;
+}
+
+
+/* icon centter */
+
+.icon-center{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    background-color: rgb(129, 191, 244);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+.icon-section{
+   
+}
+.imge{
+    background-color: #E02C6D;
+}
+
+
+
+}
+
+
+@media screen  and (min-width: 577px) and (max-width: 992px) {
+
+  /* navbar medium screen */
+    .nav-logo h3{
+       font-size: 1.6rem;
+       font-weight: bolder;
+    }
+    .nav-icon-link ul{
+        gap: 20px;
+    }
+    .nav-icon-link a{
+        font-size: 1.4rem;
+    }
+
+    .nav-icon-link i{
+        font-size: 1.4rem;
+    }
+
+    /* banner medium screen */
+
+}
+
+
