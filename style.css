@@ -118,10 +118,113 @@ background-size: cover;
     width: 90%;
     margin: 0 auto 100px auto;
     text-align: center;
+    /* background-color: aliceblue; */
     
 }
 .icon-center img{
     margin: 5px 20px;
+}
+
+/* card comtainer */
+.section-h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+   
+}
+.card-container{
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 40px;
+  
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    /* background-color: #E02C6D; */
+    margin: 0 auto;
+}
+.card-contant{
+    width: 330px;
+    height: 470px;
+    box-shadow: 2px 2px 5px rgb(239, 155, 155);
+    padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 100px;
+}
+.card-contant img, h3, h2, div, p{
+    margin-bottom: 5px;
+}
+.card-contant .img{
+    width: 300px;
+    border-radius: 10px;
+}
+.card-contant h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+.card-contant p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .7;
+    color: rgb(0, 0, 0);
+}
+.icon-image{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.icon-image span{
+    opacity: .4;
+}
+/* dsfgfasdga */
+
+.see-more{
+    display: flex;
+   justify-content: end;
+   align-items: center;
+    font-size: 25px;
+    color: #E02C6D;
+    margin-bottom: 80px;
+}
+.see-more i{
+    text-align: center;
+    padding-left: 5px;
+}
+.feature-products{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imaged img{
+    width: 500px;
+}
+
+
+.banner-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+    
+
+.banner-footer-heading h3{
+ font-size: 35px;
+ margin-bottom: 10px;
+}.banner-footer-heading p{
+ font-size: 20px;
+ opacity: .7;
+ margin-bottom: 10px;
 }
 /* small divce desin */
 
@@ -130,11 +233,19 @@ background-size: cover;
     /* nav bar media screen */
  .navbar,  
 .grid,
-.banner{
+.banner,
+.card-container,
+.banner-footer{
+
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-
+.card-contant{
+    margin-bottom: 10px;
+}
+.card-container{
+    margin-bottom: 80px;
+}
 
 .nav-logo h3{
     font-size: 30px;
@@ -163,7 +274,9 @@ background-size: cover;
     padding: 20px;
 }
 
-
+.banner-footer{
+    text-align: center;
+}
 /* icon centter */
 
 .icon-center{
